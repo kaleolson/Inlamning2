@@ -44,10 +44,11 @@ for l in län_namn:
 # Skapa scatterplot
 plt.scatter(values_2017, values_2019, color='blue')
 
-""" # Lägg till etiketter för varje punkt
-for i, namn in enumerate(län_namn):
+#Jag lyckades inte med att sätta 
+# Lägg till etiketter för varje punkt
+""" for i, namn in enumerate(län_namn):
     plt.text(values_2017[i]*1.01, values_2019[i]*0.99, namn, fontsize=9)
- """
+  """
 plt.xlabel('Värde 2017')
 plt.ylabel('Värde 2019')
 plt.title('Scatterplot: Värden per län 2017 vs 2019')
